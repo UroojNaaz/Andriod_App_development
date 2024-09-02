@@ -1,0 +1,57 @@
+    <?xml version="1.0" encoding="utf-8"?>
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".MainActivity">
+    <Button
+
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#4CAF50"
+        android:text="Hello World_top"
+        android:layout_centerInParent="true"
+        android:layout_alignParentTop="true"
+        />
+
+    <Button
+        android:id="@+id/btnChild1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:backgroundTint="#4CAF50"
+        android:text="Hello World_center"
+        android:layout_centerInParent="true"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Center_L"
+        android:backgroundTint="#E64A19"
+        android:layout_centerInParent="true"
+        android:layout_toEndOf="@id/btnChild1"
+        android:layout_marginLeft="4dp"
+        android:textColor="@color/black"/>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Center_R"
+        android:backgroundTint="#E64A19"
+        android:layout_centerInParent="true"
+        android:layout_toStartOf="@id/btnChild1"
+        android:layout_marginRight="4dp"
+        android:textColor="@color/black"/>
+
+
+    <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#4CAF50"
+            android:text="Hello World_bottom"
+            android:layout_centerInParent="true"
+            android:layout_alignParentBottom="true"
+            />
+
+
+    </RelativeLayout>
