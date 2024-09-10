@@ -1,2 +1,0 @@
-1- Create Facebook and WhatsApp Clone.
-2- Create Custom Adapter For Listview.
